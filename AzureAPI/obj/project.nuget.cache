@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xB72AQ+PU10JlKKExpopU9v0wSMk4+wYiG4JERioM/LEm2EDsRbnuzDXXAuuYo85WwmiBXmVd38n1bdzX9iBLw==",
+  "dgSpecHash": "MkZ5E5lMS/BDMI+2flsJ1tBtg+EuPgV/Ar/enducefP/gz5efW1D+ynj6qm66GGLSOFZsMXQ3mDnIiGzKHGGaA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\AzureAPI\\AzureAPI.csproj",
+  "projectFilePath": "C:\\Users\\guguo\\Git\\Armazena_Blobs_no_Azure_API\\AzureAPI\\AzureAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guguo\\.nuget\\packages\\azure.core\\1.36.0\\azure.core.1.36.0.nupkg.sha512",
     "C:\\Users\\guguo\\.nuget\\packages\\azure.storage.blobs\\12.19.1\\azure.storage.blobs.12.19.1.nupkg.sha512",
@@ -23,10 +23,10 @@
     "C:\\Users\\guguo\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
     "C:\\Users\\guguo\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\guguo\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\guguo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\guguo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512",
     "C:\\Users\\guguo\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\guguo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512"
+    "C:\\Users\\guguo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\guguo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\guguo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }

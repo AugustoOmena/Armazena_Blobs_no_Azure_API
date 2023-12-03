@@ -964,11 +964,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\AzureAPI\\AzureAPI.csproj",
+      "projectUniqueName": "C:\\Users\\guguo\\Git\\Armazena_Blobs_no_Azure_API\\AzureAPI\\AzureAPI.csproj",
       "projectName": "AzureAPI",
-      "projectPath": "C:\\Projetos\\AzureAPI\\AzureAPI.csproj",
+      "projectPath": "C:\\Users\\guguo\\Git\\Armazena_Blobs_no_Azure_API\\AzureAPI\\AzureAPI.csproj",
       "packagesPath": "C:\\Users\\guguo\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\AzureAPI\\obj\\",
+      "outputPath": "C:\\Users\\guguo\\Git\\Armazena_Blobs_no_Azure_API\\AzureAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\guguo\\AppData\\Roaming\\NuGet\\NuGet.Config",
