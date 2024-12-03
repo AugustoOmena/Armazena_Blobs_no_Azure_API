@@ -1,35 +1,26 @@
-# Azure File Handler API
-Este repositório abriga a Azure File Handler API, uma solução simples e eficiente para a manipulação de arquivos entre aplicativos C# e o Banco de Dados Azure. Esta API foi desenvolvida para simplificar o processo de armazenamento de "blobs" (arquivos binários) na nuvem da Azure, permitindo a criação, leitura, atualização e exclusão de objetos em coleções e tabelas.
+<h1 align="center">Armazena Blobs Azure · API</h1>
 
-# Recursos Principais
-Armazenamento na Nuvem: A API facilita o armazenamento de arquivos binários na plataforma Azure, proporcionando uma solução robusta e escalável.
+<p align="center">
+  <img src="https://img.shields.io/badge/.NET-7.0-blue" alt=".NET 7">
+  <img src="https://img.shields.io/badge/Azure-Cloud-blue" alt="Azure">
+</p>
 
-**Operações Básicas**: Realize operações fundamentais, como criar, recuperar, atualizar e excluir arquivos, proporcionando flexibilidade no gerenciamento dos dados.
+API para armazenamento de Blobs na Azure, permitindo a criação, leitura, atualização e exclusão de objetos em coleções e tabelas.
 
-**Suporte a Diferentes Tipos de Arquivos**: Manipule uma variedade de tipos de arquivos, permitindo o armazenamento e recuperação eficientes de dados, incluindo imagens, documentos e outros formatos binários.
+### Features
+- Armazenamento na nuvem
+- CRUD de arquivos
 
-# Como Usar
-Configuração do Ambiente: Antes de começar, certifique-se de configurar corretamente suas credenciais da Azure e ajustar as configurações necessárias no arquivo de configuração.
+## Pré requisitos
 
-**Operações Básicas**:
+- [.NET SDK 7.0](https://dotnet.microsoft.com/download)
+- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)
+- IDE (Visual Studio 2022 ou Rider)
+- Configuração das credenciais da Azure
 
-**Criar um Arquivo**: Utilize a rota POST /api/files para adicionar um novo arquivo.
-**Recuperar um Arquivo**: A rota GET /api/files/{id} permite a recuperação de um arquivo específico.
-**Atualizar um Arquivo**: Utilize PUT /api/files/{id} para modificar um arquivo existente.
-**Excluir um Arquivo**: A rota DELETE /api/files/{id} remove um arquivo com base no ID fornecido.
+# Setup
+1. Configuração do Ambiente: Antes de começar, certifique-se de configurar corretamente suas credenciais da Azure e ajustar as configurações necessárias no arquivo de configuração.
 
-# Exemplo de Uso C#
-
-// Exemplo de código C# para recuperar um arquivo pelo ID
-var file = FileHandler.GetFileById(fileId);
-
-// Exemplo de código C# para adicionar um novo arquivo
-var newFile = new File { Content = fileContent, FileName = "example.txt" };
-FileHandler.AddFile(newFile);
-
-# Contribuição
-Se você deseja contribuir para o desenvolvimento deste projeto, sinta-se à vontade para abrir problemas, enviar pull requests ou fornecer feedback. Sua colaboração é valiosa para a melhoria contínua desta API.
-
-Aproveite a Azure File Handler API para simplificar suas operações de manipulação de arquivos na nuvem da Azure. Se tiver dúvidas ou sugestões, não hesite em entrar em contato.
-
-**Vamos transformar a gestão de arquivos na Azure em algo simples e eficaz!**
+2. Inicie a API:
+   
+       dotnet run
